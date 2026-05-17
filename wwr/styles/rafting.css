@@ -7,7 +7,7 @@
     /* Gold - highlights, accents */
     --accent2-color: #1d2731;
     /* Dark Navy - body text / contrast */
-    --heading-font: "New Time Roman", "Georgia", serif;
+    --heading-font: "Times New Roman", Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -84,7 +84,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #000;
     font-weight: bold;
 }
 
@@ -108,7 +108,7 @@ nav a {
     text-align: center;
     opacity: 0.9;
     background-color: var(--accent1-color);
-    color: white;
+    color: black;
 }
 
 .hero article {
