@@ -1,0 +1,131 @@
+:root {
+    --primary-color: #0b3c5d;
+    /* Deep Blue - main headings, branding */
+    --secondary-color: #328cc1;
+    /* Light Blue - header/nav background */
+    --accent1-color: #d9b310;
+    /* Gold - highlights, accents */
+    --accent2-color: #1d2731;
+    /* Dark Navy - body text / contrast */
+    --heading-font: "New Time Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent2-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 32px;
+    margin-left: 10px;
+}
+
+/* HEADER */
+
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
+
+header img {
+    width: 120px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* HERO SECTION */
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.9;
+    background-color: var(--accent1-color);
+    color: white;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+}
