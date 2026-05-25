@@ -25,7 +25,8 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    max-width: 840px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -53,20 +54,24 @@ footer {
     padding: 10px;
 }
 
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
 
 .socialmedia img {
     width: 32px;
-    margin-left: 10px;
 }
 
 /* HEADER */
 
 header {
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 150px 1fr;
     align-items: center;
     background-color: var(--secondary-color);
     padding: 10px;
@@ -84,8 +89,12 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
     font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--accent1-color);
 }
 
 /* HERO SECTION */
@@ -128,4 +137,21 @@ nav a {
 
 section {
     padding: 20px;
+}
+
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.adventure-gallery figure {
+    width: 18%;
+    text-align: center;
+}
+
+.adventure-gallery img {
+    width: 100%;
+    display: block;
 }
