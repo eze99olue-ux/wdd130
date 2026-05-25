@@ -116,7 +116,7 @@ nav a:hover {
     text-align: center;
     opacity: 0.9;
     background-color: var(--accent1-color);
-    color: black;
+    color: #000000;
 }
 
 .hero article {
@@ -124,7 +124,7 @@ nav a:hover {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(255 255 255 / 90%);
 }
 
 .hero article img {
