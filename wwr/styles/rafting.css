@@ -88,7 +88,9 @@ nav ul {
 }
 
 nav a {
-    color: #ffffff;
+    color: #f8f8f8;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -123,7 +125,7 @@ nav a:hover {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .hero article img {
@@ -139,7 +141,7 @@ section {
 
 .adventure-gallery {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
 }
