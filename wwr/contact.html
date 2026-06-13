@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-      content="Learn about our white water rafting company and our exciting outdoor adventures.">
+      content="Contact White Water Rafting for trip reservations, adventure planning, questions, and customer support.">
     <meta name="author" content="Eze Oluebube">
-    <title>About Us | White Water Rafting</title>
+    <title>Contact Us | White Water Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -29,7 +29,7 @@
     <main>
 
         <section class="company-info">
-            <h1>Contact Us</h1>
+            <h1>Contact White Water Rafting</h1>
             <p>100 Adventure Trail</p>
             <p>Yosemite Valley, California</p>
             <p>+1 (209) 555-1234</p>
@@ -41,7 +41,7 @@
             <div class="map">
                 <iframe title="Company Location Map"
                   src="https://maps.google.com/maps?q=Yosemite%20National%20Park,%20California&z=12&output=embed"
-                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                  width="100%" height="450" allowfullscreen loading="lazy">
                 </iframe>
             </div>
 
@@ -60,21 +60,12 @@
 
                     <fieldset>
                         <legend>Message Purpose</legend>
-
-                        <label>
-                            <input type="radio" name="purpose" value="general" required>
-                            General Inquiry
-                        </label>
-
-                        <label>
-                            <input type="radio" name="purpose" value="reservation">
-                            Reservation Question
-                        </label>
-
-                        <label>
-                            <input type="radio" name="purpose" value="suggestion">
-                            Website Suggestion
-                        </label>
+                        <input type="radio" id="general" name="purpose" value="general" required>
+                        <label for="general">General Inquiry</label>
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
                     </fieldset>
 
                     <div class="form-item">
@@ -132,7 +123,7 @@
 
 
     <footer>
-        <p> © 2026 White Water Rafting </p>
+        <p>&copy; 2026 White Water Rafting | Eze Oluebube</p>
         <nav class="socialmedia">
             <a href="https://facebook.com">
                 <img src="images/facebook.png" alt="Facebook Icon">
