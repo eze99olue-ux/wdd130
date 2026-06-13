@@ -6,7 +6,6 @@
     --dark: #222222;
 }
 
-/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +19,6 @@ body {
     line-height: 1.6;
 }
 
-/* PAGE WIDTH */
 header,
 main,
 footer {
@@ -29,7 +27,6 @@ footer {
     margin: 0 auto;
 }
 
-/* HEADER */
 header {
     display: grid;
     grid-template-columns: 200px 1fr;
@@ -42,7 +39,6 @@ header {
     max-width: 150px;
 }
 
-/* NAVIGATION */
 nav ul {
     display: flex;
     justify-content: flex-end;
@@ -60,7 +56,6 @@ nav a.active {
     color: var(--primary-color);
 }
 
-/* HERO */
 .hero {
     position: relative;
 }
@@ -134,7 +129,6 @@ section {
     width: 100%;
 }
 
-/* ADVENTURES */
 .adventures {
     margin: 30px 0;
 }
@@ -277,16 +271,17 @@ button[type="submit"]:hover {
     background-color: var(--secondary-color);
 }
 
-.employees h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
+/* EMPLOYEES */
 .employees {
     margin: 40px 0;
     display: flex;
     gap: 20px;
     justify-content: space-between;
+}
+
+.employees h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .employees figure {
